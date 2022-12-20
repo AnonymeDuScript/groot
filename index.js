@@ -1,3 +1,14 @@
+//Supprimer /* et */ si vous utiliser Glitch, Replit,...
+/*const express = require('express');
+const server = express();
+
+server.all('/', (req, res) => {
+    res.send('<h2>Server is ready!</h2>');
+});
+
+server.listen(4000, () => {
+      console.log('Server Ready.');
+});*/
 
 const { Client, GatewayIntentBits, Message, Guild } = require('discord.js');
 const client = new Client({
