@@ -125,4 +125,4 @@ client.on('guildCreate', (guild) => {
   }
 });
 
-client.login("TOKE HERE");
+client.login("TOKEN HERE");
