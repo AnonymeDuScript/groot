@@ -11,7 +11,7 @@ Une fois que Groot est invité sur votre serveur, il répondra "Je m'appelle Gro
 ## Self-hosting
 Si vous souhaitez héberger Groot vous-même au lieu de l'inviter sur votre serveur Discord, vous pouvez le faire en suivant ces étapes :
 
-1. Téléchargez le code source de Groot sur GitHub : https://github.com/username/groot
+1. Téléchargez le code source de Groot sur GitHub
 2. Créez un nouvelle application et un nouveau bot sur le portail développeur Discord.
 3. Ouvrez le fichier main.js et remplacez TOKEN_HERE par le token de votre bot.
 4. Ajouter le code donnée par Redis Cloud entre //Redis Cloud dans main.js [Click ici pour voir comment faire](https://github.com/AnonymeDuScript/groot/wiki/Redis)
