@@ -14,7 +14,7 @@ Si vous souhaitez héberger Groot vous-même au lieu de l'inviter sur votre serv
 1. Téléchargez le code source de Groot sur GitHub : https://github.com/username/groot
 2. Créez un nouvelle application et un nouveau bot sur le portail développeur Discord.
 3. Ouvrez le fichier main.js et remplacez TOKEN_HERE par le token de votre bot.
-4. Ajouter le code donnée par Redis Cloud entre //Redis Cloud dans main.js (Click ici pour voir comment faire)[https://github.com/AnonymeDuScript/groot/wiki/Redis]
+4. Ajouter le code donnée par Redis Cloud entre //Redis Cloud dans main.js [Click ici pour voir comment faire](https://github.com/AnonymeDuScript/groot/wiki/Redis)
 5. Installez les dépendances de Groot en utilisant la commande npm install.
 6. Lancez Groot en utilisant la commande node main.js.
 7. Et voilà ! Groot est maintenant hébergé sur votre propre serveur.
