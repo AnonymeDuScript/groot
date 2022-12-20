@@ -1,5 +1,6 @@
-//Supprimer /* et */ si vous utiliser Glitch, Replit,...
-/*const express = require('express');
+//Enlever les // devant /* et */ si vous n'utiliser pas Glitch, Replit,...
+// /*
+const express = require('express');
 const server = express();
 
 server.all('/', (req, res) => {
@@ -8,7 +9,7 @@ server.all('/', (req, res) => {
 
 server.listen(4000, () => {
       console.log('Server Ready.');
-});*/
+}); // */
 
 const { Client, GatewayIntentBits, Message, Guild } = require('discord.js');
 const client = new Client({
