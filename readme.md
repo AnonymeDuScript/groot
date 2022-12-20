@@ -4,7 +4,7 @@ Salut ! Je suis Groot, un bot Discord qui a pour unique fonction de répondre "J
 ## Comment utiliser Groot
 Pour utiliser Groot sur votre serveur Discord, il vous suffit de l'inviter en utilisant ce lien :
 
-https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID_HERE&permissions=0&scope=bot
+https://discord.com/api/oauth2/authorize?client_id=1054550236208582717&permissions=274877909056&scope=bot
 
 Une fois que Groot est invité sur votre serveur, il répondra "Je m'appelle Groot" dans différentes langues chaque fois qu'un message lui est envoyé. Si vous souhaitez désactiver temporairement Groot, utilisez la commande `!off` et pour le réactiver, utilisez la commande `!on`.
 
