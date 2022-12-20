@@ -19,7 +19,6 @@ const client = new Client({
 
 client.on('ready', () => {
   console.log('I am ready!');
-  updateStatus();
 });
 
 var grootMsg = [
@@ -53,18 +52,6 @@ var grootMsg = [
       "Yo soy grooooot",
       "Je s'appelle Grooooot"
   ]
-
-// Crée une fonction qui change le statut du bot
-function updateStatus() {
-  // Sélectionne un message aléatoire de grootMsg
-  const status = grootMsg[Math.floor(Math.random() * grootMsg.length)];
-  
-  // Change le statut du bot avec le message sélectionné
-  client.user.setPresence({ activity: { name: status } });
-}
-
-// Appelle la fonction toutes les minutes (60 000 milliseconds)
-setInterval(updateStatus, 60000);
 
 //Create the !on command and !off command
 client.on('messageCreate', function(message) {
